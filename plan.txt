@@ -1,0 +1,4 @@
+1. Praca na lokalnym Repo - wprowadzanie i cofanie zmian
+1.1 wprowadź plik plan.txt, edytuj, stage, commit
+1.2 edytuj plan.txt i spraw aby ta wersja była w poprzednim commit
+
