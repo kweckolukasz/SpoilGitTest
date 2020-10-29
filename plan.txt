@@ -1,0 +1,21 @@
+Rozwiązania dla przyszłych potrzeb oczywiście po wykonaniu zadania
+
+1. Praca na lokalnym Repo - wprowadzanie i cofanie zmian
+
+
+1.1 wprowadź plik plan.txt, edytuj, stage, commit
+1.2 edytuj plan.txt i spraw aby ta wersja była w poprzednim commit
+// rozwiązanie: add, commit --amend i tyle :)
+
+1.3 stage - unstage - edytuj, stage, edytuj stage najnowszego, unstage, znowu stage i cofnięcie do bazowej wersji pliku (ta zaraz po commit)
+git reset HEAD, reset --hard
+
+1.4 wprowadź kilka commitów z bzdurnymi plikami
+	a) zmień nazwę brancha z createGitStory na createPlan
+	git branch (-m | -M) [<oldbranch>] <newbranch>
+	a i pół) wszystkie zmiany dokonane w ramach 1.4 wprowadź w branch 1.4
+	b) uaktualnij main zachowując najnowszą werję i pozostałe branche
+	c) cofnij te kilka bzdurnych commitów tak żeby ich nie było ale pliki pozostały
+	
+
+
