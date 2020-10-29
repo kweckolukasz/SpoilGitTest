@@ -1,4 +1,12 @@
+Rozwiązania dla przyszłych potrzeb oczywiście po wykonaniu zadania
+
 1. Praca na lokalnym Repo - wprowadzanie i cofanie zmian
+
+
 1.1 wprowadź plik plan.txt, edytuj, stage, commit
 1.2 edytuj plan.txt i spraw aby ta wersja była w poprzednim commit
+// rozwiązanie: add, commit --amend i tyle :)
+
+1.3 stage - unstage - edytuj, stage, edytuj stage najnowszego, unstage, znowu stage i cofnięcie do bazowej wersji pliku (ta zaraz po commit)
+
 
