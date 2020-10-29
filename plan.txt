@@ -8,5 +8,8 @@ Rozwiązania dla przyszłych potrzeb oczywiście po wykonaniu zadania
 // rozwiązanie: add, commit --amend i tyle :)
 
 1.3 stage - unstage - edytuj, stage, edytuj stage najnowszego, unstage, znowu stage i cofnięcie do bazowej wersji pliku (ta zaraz po commit)
+git reset HEAD, reset --hard
+
+1.4 wprowadź kilka commitów z bzdurnymi plikami potem cofnij całość do powyższego commita -> z zachowaniem bzdurnych plików, z kasacją
 
 
