@@ -16,6 +16,7 @@ git reset HEAD, reset --hard
 	a i pół) wszystkie zmiany dokonane w ramach 1.4 wprowadź w branch 1.4
 	b) uaktualnij main zachowując najnowszą werję i pozostałe branche
 	c) cofnij te kilka bzdurnych commitów tak żeby ich nie było ale pliki pozostały
+		nie udało się, wrócę do tego jak dojde do rebase
 	
-
-
+1.5 Reset/Revert
+	a) pobaw się z resetem --soft poobserwój co się zmienia
