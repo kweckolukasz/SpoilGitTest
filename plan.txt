@@ -19,4 +19,18 @@ git reset HEAD, reset --hard
 		nie udało się, wrócę do tego jak dojde do rebase
 	
 1.5 Reset/Revert
+	
 	a) pobaw się z resetem --soft poobserwój co się zmienia
+	Recap
+	The reset command overwrites these three trees in a specific order, stopping when you tell it to:
+	1. Move the branch HEAD points to (stop here if --soft).
+	2. Make the index look like HEAD (stop here unless --hard).
+	3. Make the working directory look like the index.
+	git reset file to dokładna odwrotność git add file
+	a.1) stwórz dwa pliki reset1 i reset2 stwórz text commit1 w obu, udaj się na oddzielny branch i commit, powtórz 3 razy
+	potem przywracaj kolejno pliki do coraz uboższej wersji
+	Nie Działa! poza hard który jest niebezpieczny, mixed nie uaktualnia stage, nie wiem dla czego, zostawię reset na chwilę :)
+
+	b) revert i checkout
+	j.w.
+	
